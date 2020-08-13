@@ -3,6 +3,9 @@
     <h1>{{ msg }}</h1>
     <h2>Test: {{test}}</h2>
     <button @click="testAction(`Hello, User! ${Date.now()}`)">Press</button>
+    <div class="my-2">
+        <v-btn depressed color="error">Error</v-btn>
+      </div>
   </div>
 </template>
 
